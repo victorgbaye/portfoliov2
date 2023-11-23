@@ -1,0 +1,31 @@
+.NavbarWrapper{
+
+    background: #1A1A1A;
+    box-shadow: 0px 1px 17.6px 0px rgba(168, 232, 138, 0.08);
+    width: 100%;
+    // padding-left: 285px;
+    // padding-right: 285px;
+}
+.Navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 82px;
+    max-width: 1351px;
+    margin: 0 auto;
+}
+.logo{
+    font-family: 'Share Tech Mono', monospace;
+    color: #A8E88A;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px; 
+    // letter-spacing: 0.16px;
+}
+.socialsSection{
+    display: flex;
+    align-items: center;
+    align-content: center;
+    gap: 16px;
+}

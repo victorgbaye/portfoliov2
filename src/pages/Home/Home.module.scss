@@ -1,0 +1,41 @@
+.HeroSection{
+    height: 100vh;
+    img{
+       
+        margin: 0 auto;
+        display: flex;
+        align-items: center;
+        align-content: center;
+        align-self: center;
+    }
+}
+.HeroMain{
+    display: flex;
+    gap: 18px;
+    flex-direction: column;
+    align-items: center;
+    max-width: 707px;
+    margin: 0 auto;
+    margin-bottom: 208px;
+    margin-top: 150px;
+    h1{
+        color:  #F5F5F5;
+        font-family: 'Share Tech Mono', monospace;
+        font-size: 72px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 80px; /* 111.111% */
+        letter-spacing: 0.36px;
+        text-align: center;
+    }
+    p{
+        color: #CCC;
+        text-align: center;
+        font-family: Inter;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 24px;
+        letter-spacing: 0.272px;
+    }
+}
