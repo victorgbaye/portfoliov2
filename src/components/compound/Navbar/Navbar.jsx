@@ -13,7 +13,7 @@ const Navbar = () => {
     <div className={styles.NavbarWrapper}>
         <div className={styles.Navbar}>
             <span>
-                <h2 className={styles.logo}>Victor</h2>
+                <h2 className={styles.logo}>Victor Gbaye</h2>
             </span>
             <section className={styles.socialsSection}>
                 <img src={github}/>
