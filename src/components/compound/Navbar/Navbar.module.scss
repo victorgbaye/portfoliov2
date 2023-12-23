@@ -11,8 +11,9 @@
     justify-content: space-between;
     align-items: center;
     height: 82px;
-    max-width: 1351px;
-    margin: 0 auto;
+    // max-width: 1351px;
+    // margin: 0 auto;
+    padding: 0 50px;
 }
 .logo{
     font-family: 'Share Tech Mono', monospace;
@@ -28,4 +29,14 @@
     align-items: center;
     align-content: center;
     gap: 16px;
+}
+.CTA{
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+
+
+@media screen and (max-width: 768px) {
+    
 }

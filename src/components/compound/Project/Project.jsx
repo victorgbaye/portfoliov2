@@ -15,7 +15,9 @@ const Project = () => {
                             <p className={styles.ProjectDescription}>{data.Description}</p>
                             <p>{data.role}</p>
                             <div className={styles.ProjectDocumentation}>
-                                <Button style={{color: '#0E441D',display:'flex', alignItems:'center', gap:'8px', background: '#A8E88A', border: '1px solid #A8E88A',}}>View product</Button>
+                                <a href='https://thefigplug.onrender.com/'>
+                                    <Button style={{color: '#0E441D',display:'flex', alignItems:'center', gap:'8px', background: '#A8E88A', border: '1px solid #A8E88A',}}>View product</Button>
+                                </a>
                                 <Button>View Documentation</Button>
                                 <Button>Git Hub</Button>
                             </div>

@@ -12,11 +12,14 @@ const Home = () => {
             <Navbar/>
             <div className={styles.HeroMain}>
                 <h1>Software Developer</h1>
-                <p>It's also important to make sure that the font aligns with the overall design system of the website for consistency. Additionally, Figma allows you to import fonts, so you're not limited to the default selection if you have a specific typeface in mind that isn't available in Figma by default.</p>
+                <p>
+                I specialize in creating captivating user interfaces and building APIs and distributed systems for web and digital products. 
+                My focus is on delivering exceptional user experiences through seamless design and efficient, reliable backend solutions.
+                </p>
             </div>
             <img src={arrowdown}/>
         </section>
-        <section>
+        <section >
             <Project/>
         </section>
     </div>

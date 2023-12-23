@@ -20,10 +20,15 @@ const Navbar = () => {
                 <img src={linkedin}/>
                 <img src={twitter}/>
             </section>
-            <Button style={{color: '#0E441D',display:'flex', alignItems:'center', gap:'8px', background: '#A8E88A', border: '1px solid #A8E88A',}}>
-                <img src={send}/>
-                <p>Send email</p>
-            </Button>
+            <section className={styles.CTA}>
+                <Button style={{color: '#A8E88A',display:'flex', alignItems:'center', gap:'8px', background: 'none', border: 'none',fontSize: '16px'}}>
+                    Resume
+                </Button>
+                <Button style={{color: '#0E441D',display:'flex', alignItems:'center', gap:'8px', background: '#A8E88A', border: '1px solid #A8E88A',}}>
+                    <img src={send}/>
+                    <p>Send email</p>
+                </Button>
+            </section>
         </div>
     </div>
   )

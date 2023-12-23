@@ -1,7 +1,6 @@
 .HeroSection{
     height: 100vh;
     img{
-       
         margin: 0 auto;
         display: flex;
         align-items: center;
@@ -20,7 +19,7 @@
     margin-top: 150px;
     h1{
         color:  #F5F5F5;
-        font-family: 'Share Tech Mono', monospace;
+        // font-family: 'Share Tech Mono', monospace;
         font-size: 72px;
         font-style: normal;
         font-weight: 400;
@@ -29,13 +28,18 @@
         text-align: center;
     }
     p{
-        color: #CCC;
+        color: white;
         text-align: center;
-        font-family: Inter;
+        // font-family: Inter;
         font-size: 16px;
         font-style: normal;
         font-weight: 400;
         line-height: 24px;
         letter-spacing: 0.272px;
     }
+}
+
+.Projects{
+    display: flex;
+    gap: 40px;
 }
