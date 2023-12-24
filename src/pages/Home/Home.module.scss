@@ -10,13 +10,17 @@
 }
 .HeroMain{
     display: flex;
+    justify-content: center;
     gap: 18px;
     flex-direction: column;
     align-items: center;
+    place-content: center;
+    text-align: center;
     max-width: 707px;
     margin: 0 auto;
     margin-bottom: 208px;
     margin-top: 150px;
+    padding: 0 25px;
     h1{
         color:  #F5F5F5;
         // font-family: 'Share Tech Mono', monospace;

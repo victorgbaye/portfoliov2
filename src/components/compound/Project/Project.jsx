@@ -9,8 +9,8 @@ const Project = () => {
             projectData.map((data)=>{
                 return(
                     <div key={data.title} className={styles.ProjectContainer}>
-                        <img src={data.image}/>
-                        <div>
+                        <img src={data.image} />
+                        <div className={styles.ProjectContent}>
                             <h4 className={styles.ProjectTitle}>{data.title}</h4>
                             <p className={styles.ProjectDescription}>{data.Description}</p>
                             <p>{data.role}</p>
