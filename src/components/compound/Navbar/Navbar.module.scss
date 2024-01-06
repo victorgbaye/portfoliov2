@@ -13,7 +13,7 @@
     height: 82px;
     // max-width: 1351px;
     // margin: 0 auto;
-    padding: 0 50px;
+    padding: 0 40px;
 }
 .logo{
     font-family: 'Share Tech Mono', monospace;
@@ -35,7 +35,9 @@
     align-items: center;
     gap: 24px;
 }
-
+.hamburger{
+    display: none;
+}
 
 @media screen and (max-width: 768px) {
 
@@ -46,5 +48,8 @@
     }
     .CTA {
         display: none;
+      }
+      .hamburger{
+        display: block;
       }
   }

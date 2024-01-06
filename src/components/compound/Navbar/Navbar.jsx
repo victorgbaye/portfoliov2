@@ -7,7 +7,7 @@ import send from '../../../assets/send.svg'
 import github from '../../../assets/github.svg'
 import linkedin from '../../../assets/linkedin.svg'
 import twitter from '../../../assets/twitter.svg'
-
+import MenuIcon from '@mui/icons-material/Menu';
 const Navbar = () => {
   return (
     <div className={styles.NavbarWrapper}>
@@ -28,6 +28,9 @@ const Navbar = () => {
                     <img src={send}/>
                     <p>Send email</p>
                 </Button>
+            </section>
+            <section className={styles.hamburger}>
+                <MenuIcon />
             </section>
         </div>
     </div>
