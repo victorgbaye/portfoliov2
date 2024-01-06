@@ -38,7 +38,11 @@
 .hamburger{
     display: none;
 }
-
+.hamburgerMenu{
+    height: 100vh;
+    background: #1A1A1A;
+    display: none;
+}
 @media screen and (max-width: 768px) {
 
 }
@@ -50,6 +54,9 @@
         display: none;
       }
       .hamburger{
+        display: block;
+      }
+      .hamburgerMenu{
         display: block;
       }
   }
