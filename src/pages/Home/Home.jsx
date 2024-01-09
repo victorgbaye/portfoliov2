@@ -17,7 +17,7 @@ const Home = () => {
                 My focus is on delivering exceptional user experiences through seamless design and efficient, reliable backend solutions.
                 </p>
             </div>
-            <img src={arrowdown}/>
+            <img src={arrowdown} className={styles.bounce}/>
         </section>
         <section >
             <Project/>
