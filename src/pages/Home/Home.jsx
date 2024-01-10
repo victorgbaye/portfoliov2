@@ -3,7 +3,6 @@
 
 import Navbar from "../../components/compound/Navbar/Navbar"
 import styles from './Home.module.scss'
-import arrowdown from '../../assets/arrowdown.svg'
 import Project from "../../components/compound/Project/Project"
 const Home = () => {
   return (
@@ -17,7 +16,6 @@ const Home = () => {
                 My focus is on delivering exceptional user experiences through seamless design and efficient, reliable backend solutions.
                 </p>
             </div>
-            <img src={arrowdown} className={styles.bounce}/>
         </section>
         <section >
             <Project/>
