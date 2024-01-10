@@ -1,4 +1,4 @@
-// import React from 'react'
+import  {useState, useEffect} from 'react'
 // import PropTypes from 'prop-types'
 import styles from './Navbar.module.scss'
 
@@ -8,7 +8,22 @@ import github from '../../../assets/github.svg'
 import linkedin from '../../../assets/linkedin.svg'
 import twitter from '../../../assets/twitter.svg'
 import MenuIcon from '@mui/icons-material/Menu';
+import CloseIcon from '@mui/icons-material/Close';
 const Navbar = () => {
+    const [isHamburgerOpen, setIssHamburgerOpen] = useState(false)
+    useEffect(() => {
+        const body = document.querySelector('body');
+        if (isHamburgerOpen) {
+          body.style.overflow = 'hidden'; 
+        } else {
+          body.style.overflow = ''; 
+        }
+    
+        return () => {
+          body.style.overflow = '';
+        };
+      }, [isHamburgerOpen]);
+    
   return (
     <>
         <div className={styles.NavbarWrapper}>
@@ -30,15 +45,23 @@ const Navbar = () => {
                         <p>Send email</p>
                     </Button>
                 </section>
-                <section className={styles.hamburger}>
-                    <MenuIcon />
+                <section className={styles.hamburger} onClick={()=>setIssHamburgerOpen(!isHamburgerOpen)}>
+                    {isHamburgerOpen? <CloseIcon/> : <MenuIcon />}
                 </section>
             </div>
 
         </div>
+        {
+            isHamburgerOpen &&
         <div className={styles.hamburgerMenu}>
+            <p>Work</p>
+            <p>Github</p>
+            <p>Linkedin</p>
+            <p>Twitter</p>
+            <p>Resume</p>
 
         </div>
+        }
     </>
   )
 }
