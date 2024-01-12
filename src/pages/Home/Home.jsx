@@ -11,7 +11,7 @@ const Home = () => {
         <section className={styles.HeroSection}>
             <Navbar/>
             <div className={styles.HeroMain}>
-                <h1>Software Developer</h1>
+                <h1>{`Hello, I'm Victor`}</h1>
                 <p>
                 I specialize in creating captivating user interfaces and building APIs and distributed systems for web and digital products. 
                 My focus is on delivering exceptional user experiences through seamless design and efficient, reliable backend solutions.
