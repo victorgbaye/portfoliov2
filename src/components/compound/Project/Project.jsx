@@ -4,7 +4,7 @@ import styles from './Project.module.scss'
 
 const Project = () => {
   return (
-    <div style={{display:'flex', flexDirection:'column', gap:'40px'}}>
+    <div  className={styles.projects} style={{display:'flex', gap:'20px'}}>
         {
             projectData.map((data)=>{
                 return(

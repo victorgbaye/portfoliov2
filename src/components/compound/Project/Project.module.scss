@@ -11,8 +11,10 @@
     border-radius: 12px;
     gap: 40px;
     // max-width: 100%;
+    border: 1px solid red;
    
-    width: 70%;
+    // width: 100%;
+    flex: 1;
     margin: 0 auto;
     margin-bottom: 40px;
     position: relative;
@@ -70,5 +72,9 @@
     .ProjectContainer {
       width: auto;
       margin: 0 40px;
+    }
+    .projects{
+        flex-direction: column;
+        gap: 40px;
     }
   }
